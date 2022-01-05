@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'UI/welcome/welcome.dart';
+import 'UI/ui.dart';
 import 'utils/utils.dart';
 
 class FinanceApp extends StatelessWidget {
