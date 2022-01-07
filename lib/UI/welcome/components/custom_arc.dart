@@ -6,7 +6,7 @@ class ArcPainter extends CustomPainter {
     final center = Offset(size.width, size.height);
     final arcPaint = Paint()
       ..color = const Color(0xFFD0EAF9).withOpacity(0.7)
-      ..strokeWidth = 30
+      ..strokeWidth = 50
       ..style = PaintingStyle.stroke;
 
     canvas.drawArc(

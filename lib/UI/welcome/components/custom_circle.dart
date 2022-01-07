@@ -14,12 +14,12 @@ class CirclePainter extends CustomPainter {
           Color(0xFFABA4B6), 
           Color(0xFF807C88),
           Color(0xFF75717B),
-          Color(0xFF413F42), 
+          Color(0xFF413F42),
         ],
       ).createShader(
         Rect.fromCircle(center: center, radius: size.width),
       )
-      ..strokeWidth = 50
+      ..strokeWidth = 75
       ..style = PaintingStyle.stroke;
 
     canvas.drawCircle(center, size.width, circlePaint);
