@@ -12,7 +12,7 @@ class FinanceApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: theme,
-      home: const WelcomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }
