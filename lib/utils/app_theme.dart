@@ -28,5 +28,16 @@ class FinanceAppTheme {
       fontWeight: FontWeight.bold,
       color: const Color(0xFFFFFFFF),
     ),
+    headline2: GoogleFonts.openSans(
+      fontSize: 32,
+      fontWeight: FontWeight.bold,
+      color: const Color(0xFF000000),
+    ),
+    headline3: GoogleFonts.openSans(
+      fontSize: 24,
+      fontWeight: FontWeight.bold,
+      color: const Color(0xFF000000),
+    ),
+    
   );
 }
