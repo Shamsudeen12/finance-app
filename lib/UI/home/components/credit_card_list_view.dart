@@ -11,6 +11,7 @@ class CreditCardsListView extends StatelessWidget {
       padding: const EdgeInsets.only(left: 24),
       height: 350,
       child: ListView.separated(
+        primary: false,
         scrollDirection: Axis.horizontal,
         shrinkWrap: true,
         physics: const ClampingScrollPhysics(),

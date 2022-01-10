@@ -1,3 +1,4 @@
+import 'package:finance/utils/utils.dart';
 import 'package:flutter/material.dart';
 
 import 'models.dart';
@@ -18,7 +19,6 @@ class CreditCard extends StatelessWidget {
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SizedBox(
             width: 100,
@@ -47,18 +47,22 @@ class CreditCard extends StatelessWidget {
               ],
             ),
           ),
+          verticalHeight65,
           Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
                 'CARD NUMBER',
-                style: Theme.of(context).textTheme.bodyText1,
+                style: Theme.of(context).textTheme.bodyText2,
               ),
+              verticalHeight5,
               Text(
                 cardModel.cardNumber,
                 style: Theme.of(context).textTheme.headline3,
               ),
             ],
           ),
+          verticalHeight65,
           Text(
             cardModel.name,
             style: Theme.of(context).textTheme.headline3,

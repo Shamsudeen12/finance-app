@@ -22,6 +22,11 @@ class FinanceAppTheme {
       fontWeight: FontWeight.w500,
       color: const Color(0xFFA0A0BA),
     ),
+    bodyText2: GoogleFonts.openSans(
+      fontSize: 15,
+      fontWeight: FontWeight.bold,
+      color: const Color(0xFFA0A0BA),
+    ),
     headline1: GoogleFonts.openSans(
       fontSize: 64,
       height: 1.15,
@@ -38,6 +43,21 @@ class FinanceAppTheme {
       fontWeight: FontWeight.bold,
       color: const Color(0xFF000000),
     ),
-    
+    headline4: GoogleFonts.openSans(
+      fontSize: 16,
+      fontWeight: FontWeight.w500,
+      color: const Color(0xFFFFFFFF),
+    ),
+    headline5: GoogleFonts.openSans(
+      fontSize: 16,
+      fontWeight: FontWeight.w400,
+      color: const Color(0xFFFFFFFF).withOpacity(.5),
+    ),
+    headline6: GoogleFonts.openSans(
+      fontSize: 20,
+      fontWeight: FontWeight.w600,
+      letterSpacing: .5,
+      color: const Color(0xFFFFFFFF),
+    ),
   );
 }
