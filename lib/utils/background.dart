@@ -5,15 +5,18 @@ class Background extends StatelessWidget {
     Key? key,
     required this.child,
     required this.padding,
+    this.bottomNavigationBar,
   }) : super(key: key);
 
   final Widget child;
+  final Widget? bottomNavigationBar;
   final EdgeInsetsGeometry padding;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFF2A2A2A),
+      bottomNavigationBar:bottomNavigationBar ,
       body: SafeArea(
         child: Padding(
           padding: padding,

@@ -50,7 +50,7 @@ class TransactionsListView extends StatelessWidget {
       primary: false,
       // scrollDirection: Axis.vertical,
       // shrinkWrap: true,
-      // physics: const NeverScrollableScrollPhysics(),
+      // physics: const NeverScrollableScrollPhysics(),`
       itemCount: creditCards.length,
       separatorBuilder: (context, index) => const SizedBox(height: 50),
       itemBuilder: (context, index) => TransactionCard(
