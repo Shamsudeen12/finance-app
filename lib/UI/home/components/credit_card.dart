@@ -1,7 +1,7 @@
 import 'package:finance/utils/utils.dart';
 import 'package:flutter/material.dart';
 
-import 'models.dart';
+import 'credit_model.dart';
 
 class CreditCard extends StatelessWidget {
   const CreditCard({Key? key, required this.cardModel}) : super(key: key);
