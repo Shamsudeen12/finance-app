@@ -1,3 +1,4 @@
+import 'package:finance/utils/siize_config.dart';
 import 'package:finance/utils/utils.dart';
 import 'package:flutter/material.dart';
 
@@ -10,6 +11,7 @@ class CreditCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    SizeConfig().init(context);
     return Container(
       width: 300,
       padding: const EdgeInsets.all(40),
@@ -19,10 +21,11 @@ class CreditCard extends StatelessWidget {
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           SizedBox(
             width: 100,
-            height: 50,
+            // height: 50,
             child: Stack(
               children: [
                 Positioned(
@@ -47,7 +50,7 @@ class CreditCard extends StatelessWidget {
               ],
             ),
           ),
-          verticalHeight65,
+          // SizedBox(height: SizeConfig.blockSizeVertical * 5),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -62,7 +65,7 @@ class CreditCard extends StatelessWidget {
               ),
             ],
           ),
-          verticalHeight65,
+          // SizedBox(height: SizeConfig.blockSizeVertical * 5),
           Text(
             cardModel.name,
             style: Theme.of(context).textTheme.headline3,
